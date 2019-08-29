@@ -1,0 +1,14 @@
+{
+  "name": "dalorm",
+  "version": "1.0.1",
+  "description": "dal orm zekiri ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dalorm"
+  ],
+  "author": "",
+  "license": "ISC"
+}
