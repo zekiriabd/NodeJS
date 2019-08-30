@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "amd",
+    "sourceMap": true,
+    "outDir": "./bin",
+    "types": [
+      "node"
+    ],
+   "typeRoots": [
+      "node_modules/@types"
+   ]
+  },
+  "exclude": [
+    "node_modules",
+  ]
+}
