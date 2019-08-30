@@ -1,6 +1,6 @@
 {
   "name": "dalorm",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "dal orm zekiri ",
   "main": "index.js",
   "scripts": {
