@@ -10,5 +10,8 @@
     "dalorm"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mssql": "^5.1.0"
+  }
 }

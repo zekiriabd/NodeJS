@@ -1,14 +1,20 @@
-var bodyParser  = require('body-parser');
-var express     = require('express');
-//var routes    = require('./src/routes/myRoutes'); 
-import {routes} from './src/routes/myRoutes';
+/* ============== Server ===================
+- Import all Controller
+- Create server Api Localhost:8080/Controller/Action/Param 
+  ========================================== */
+
+  var express     = require('express');
+import UserController from './src/controllers/UserController';
+
+
 
 
 const app  = express();
 const IP   = '127.0.0.1';
 const PORT = 8080;
 
-routes(app);
+app.use(express.json());
+
+UserController(app);
+
 app.listen(PORT,IP); 
-
-

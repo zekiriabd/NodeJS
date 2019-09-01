@@ -4,6 +4,7 @@
     "module": "commonjs",
     "sourceMap": true,
     "outDir": "./bin",
+    "strict":true,
   },
   "exclude": [
     "node_modules",

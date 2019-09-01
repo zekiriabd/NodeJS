@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "BOL_API"
+		},
+		{
+			"path": "DAL_ORM"
+		},
+		{
+			"path": "UI_Client"
+		}
+	],
+	"settings": {}
+}

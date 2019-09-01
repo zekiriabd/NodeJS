@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "amd",
+    "module": "commonjs",
     "sourceMap": true,
+    "esModuleInterop": true,
     "outDir": "./bin",
+    "strict":true,
     "types": [
       "node"
     ],
