@@ -1,0 +1,23 @@
+{
+   "type": "mssql",
+   "host": "DESKTOP-MAGJ7HQ\\SQLEXPRESS",
+   "username": "sa",
+   "password": "talage",
+   "database": "USER_Managment",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
