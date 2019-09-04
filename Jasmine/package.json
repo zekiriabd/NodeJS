@@ -1,0 +1,20 @@
+{
+  "name": "demojasmine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "demojasmine": "index.js"
+  },
+  "dependencies": {
+    "@types/jasmine": "^3.4.0",
+    "http": "^0.0.0",
+    "jasmine": "^3.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "",
+  "license": "ISC"
+}
