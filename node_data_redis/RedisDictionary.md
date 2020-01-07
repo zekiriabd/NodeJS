@@ -15,9 +15,8 @@ customers.findAll().then(x=> console.log(x));
 customers.findById(8).then(x=> console.log(x));  
 customers.ContainsKey(1).then(x=> console.log(x)); 
 customers.Remove(3).then(x=> console.log(x)); 
-
 customers.Clear();
-
+```
 
 <p align="center">
    <img src="https://i.imgur.com/nqGGIb4.png" alt="badges" style="margin:auto">
