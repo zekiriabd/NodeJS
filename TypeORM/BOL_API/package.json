@@ -1,0 +1,20 @@
+{
+  "name": "bol_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "@types/requirejs": "^2.1.31",
+    "express": "^4.17.1",
+    "requirejs": "^2.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.3"
+  }
+}
