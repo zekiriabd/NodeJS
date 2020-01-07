@@ -1,6 +1,8 @@
 # Node.js & Nest.js
 
 #### RedisDictionary
+
+```html
 import {RedisDictionary} from "./RedisDictionary";
 
 var customers = new RedisDictionary<number, Customer>("customers");
