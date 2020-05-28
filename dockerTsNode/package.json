@@ -1,0 +1,24 @@
+{
+  "name": "node_docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "dependencies": {
+    "@types/node": "^14.0.5",
+    "aws-sdk": "^2.680.0",
+    "express": "^4.17.1",
+    "node": "^14.2.0",
+    "nodemon": "^2.0.4",
+    "readline-sync": "^1.4.10",
+    "typescript": "^3.9.2",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node --inspect=8089 -r ts-node/register index.ts",
+    "start:watch": "nodemon",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC"
+}
