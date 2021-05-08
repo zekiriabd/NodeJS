@@ -29,7 +29,7 @@
   "dependencies": {
     "mysql": "^2.15.0",
     "reflect-metadata": "^0.1.12",
-    "typeorm": "^0.2.15"
+    "typeorm": "^0.2.25"
   },
   "scripts": {
     "start": "tsc && node src/index.js",
